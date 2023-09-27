@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    outline: 0;
+    box-sizing: 0;
+}
+
+html,body{
+    
+    height: 100%;
+}
+
+body{background-color: rgb(8, 2, 62);}
+
+header{
+    background-color: rgb(144, 144, 144);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a:hover{
+    color: rgb(0, 0, 17);
+    font-size: 1.5rem;
+}
+
+nav > a{
+    color:rgb(23, 23, 23);
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bolder;
+    
+}
+
+figure{
+    width: 200px;
+}
+
+figure > img{
+    width: 50%;
+    height: 50%;
+    border-radius: 3rem;
+}
+
+footer{
+   
+
+     text-align:end;
+   
+}
+
+.container{
+    display: block;
+}
+
+.level1 {
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-top: 3rem;
+    background-color: rgb(196, 196, 196);
+ 
+}
+
+.news1:hover {
+    box-shadow: 3rem 2rem 15rem rgba(0, 0, 0, 0.82);
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+    
+    
+    
+    
+}
+
+h2{
+    text-align: center;
+    align-items: center;
+    color: rgb(145, 145, 145);
+    margin-left: 2rem;
+    margin-left: 2rem;
+   
+}
+
+button{
+    border-radius: 3rem;
+    width: 7%;
+    height: 7% ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(132, 132, 132);
+}
+
+
+
+.retangulo{
+        width: 29.6rem;
+         height: 4.5rem; 
+         left: 57.2rem;
+         
+         top: 19.3rem;
+          position: absolute;
+          
+          background: rgb(144, 142, 142);
+           border-radius: 8rem
+}
+.sombra{
+    width: 51.1rem;
+    height: 57.3rem;
+    left: 46.4rem;
+      
+      top: 4.7rem;
+       position: absolute;
+       background-color: rgb(172, 172, 172);
+        box-shadow: 0rem 0.4rem 10rem rgba(169, 167, 167, 0.82);
+         border-radius: 3rem
+}
+
+.news{
+    padding: 1rem;
+    background-color: rgb(197, 197, 197);
+    width: 18rem;
+    height: 11rem;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.news:hover {
+    box-shadow: 2rem 1rem 6.5rem rgba(255, 255, 255, 0.82);
+}
